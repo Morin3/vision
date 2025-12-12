@@ -6,3 +6,4 @@ sphinx==5.0.0
 tabulate
 -e git+https://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 pycocotools
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
